@@ -103,7 +103,8 @@
         0 2px 12px rgba(4, 4, 15, 0.6);
     }
 
-    .vimeo-ratio iframe {
+    .vimeo-ratio iframe,
+    .vimeo-ratio video {
       position: absolute;
       inset: 0;
       width: 100%;
@@ -259,12 +260,12 @@
     <main class="main">
       <div class="embed-shell">
         <div class="vimeo-ratio">
-          <iframe
-            src="https://drive.google.com/file/d/1qkXnWU6GWfmTUMUAEcaB5CIsowSGdmMr/preview"
-            allow="autoplay; fullscreen"
-            allowfullscreen
-            title="Faraway"
-          ></iframe>
+          <video
+            src="final.mp4"
+            controls
+            playsinline
+            preload="metadata"
+          ></video>
         </div>
       </div>
     </main>
