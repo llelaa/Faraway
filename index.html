@@ -46,8 +46,7 @@
       inset: 0;
       z-index: 2;
       display: grid;
-grid-template-rows: auto auto;
-padding-top: 4vh;      
+      grid-template-rows: auto 1fr;   
       padding: clamp(1.8rem, 4vw, 3.5rem) clamp(1rem, 4vw, 3rem) 2rem;
     }
 
@@ -83,8 +82,10 @@ padding-top: 4vh;
     /* ── Center: Vimeo embed ─────────────────────────────── */
     .main {
       display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+      padding-top: 5%;
+
     }
 
     .embed-shell {
